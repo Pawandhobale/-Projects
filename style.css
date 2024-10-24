@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url(images\ \(1\).jpeg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#scorebox{
+    position: absolute;
+    top: 50px;
+    right: -92px;
+    font-size: 39px;
+    font-weight: bold;
+    margin-right: 200px;
+    border: 2px solid rgb(227, 13, 213);
+    padding: 8px;
+    
+}
+#board{
+    background: linear-gradient(rgb(207, 15, 224),rgb(16, 243, 61));
+    width: 98vmin;
+    height: 97vmin;
+    border: solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+     margin-right: 500px; 
+    /* background: transparent; */
+}
+
+.head{
+    background:linear-gradient(rgb(239, 4, 67),rgb(215, 241, 14));
+    transform: scale(1.02);
+    border-radius: 9px;
+
+}
+
+
+.snake{
+    background-color: rgb(73, 8, 250);
+    border: .25vmin solid white;
+    border-radius: 12px;
+    
+
+
+}
+
+
+.food{
+    background: linear-gradient(white, black);
+    border: .25vmin solid black;
+    border-radius: 8px;
+
+    
+
+    
+}
+.left{
+    font-size: 21px;
+    position: sticky;
+    margin-top:434px;
+    padding: 4px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: -38%;
+    height: 30px;
+    width: 50px;
+    
+    
+
+
+}
+
+.right{
+    font-size: 16px;
+    position: sticky;
+    margin-top:434px;
+    padding: 4px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 40%;
+    height: 30px;
+    width: 50px;
+
+
+
+}
+.up{
+    font-size: 17px;
+    position: sticky;
+    margin-top:389px;
+    padding: 1px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 3%;
+    height: 30px;
+    width: 50px;
+    
+
+}
+.down{
+    font-size: 18px;
+    position: sticky;
+    margin-top:470px;
+    padding: 3px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 3%;
+    height: 30px;
+    width: 50px;
+
+
+}
+
+
+/* @media screen and (max-width:900px) {
+
+
+    #scorebox{
+        position: absolute;
+        top: 89px;
+        right: -92px;
+        font-size: 39px;
+        font-weight: bold;
+        margin-right: -88px;
+        border: 2px solid black;
+    }
+    #board{
+        background: linear-gradient(rgb(224, 15, 15),rgb(16, 243, 61));
+        width: 98vmin;
+        height: 97vmin;
+        border: solid black;
+        display: grid;
+        grid-template-rows: repeat(18,1fr);
+        grid-template-columns: repeat(18,1fr);
+        margin-right: 0px;
+        /* background: transparent; */
+    /* }
+    
+    .head{
+        background:linear-gradient(rgb(239, 4, 67),rgb(215, 241, 14));
+        transform: scale(1.02);
+        border-radius: 9px;
+    
+    }
+    
+    
+    .snake{
+        background-color: rgb(73, 8, 250);
+        border: .25vmin solid white;
+        border-radius: 12px;
+        
+    
+    
+    }
+    
+    
+    .food{
+        background: linear-gradient(white, black);
+        border: .25vmin solid black;
+        border-radius: 8px;
+    
+        
+    
+        
+    }
+
+    .left{
+        font-size: 30px;
+    }
+    
+.left{
+    font-size: 21px;
+    position: sticky;
+    margin-top:434px;
+    padding: 4px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: -38%;
+    height: 30px;
+    width: 50px;
+    
+
+
+}
+
+.right{
+    font-size: 16px;
+    position: sticky;
+    margin-top:434px;
+    padding: 4px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 40%;
+    height: 30px;
+    width: 50px;
+
+
+}
+.up{
+    font-size: 17px;
+    position: sticky;
+    margin-top:389px;
+    padding: 1px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 3%;
+    height: 30px;
+    width: 50px;
+
+}
+.down{
+    font-size: 18px;
+    position: sticky;
+    margin-top:470px;
+    padding: 3px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 3%;
+    height: 30px;
+    width: 50px;
+
+
+}
+    
+    
+} */ 
